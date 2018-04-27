@@ -1,2 +1,9 @@
 sudo: false
 script: echo jup
+env:
+  FOO: one
+  FOO: two
+  FOO: three
+  FOO: four
+  FOO: five
+  FOO: six
