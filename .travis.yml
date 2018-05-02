@@ -1,9 +1,11 @@
+
 sudo: false
-script: echo jup
-env:
-  - FOO=one
-  - FOO=two
-  - FOO=three
-  - FOO=four
-  - FOO=five
-  - FOO=six
+
+jobs:
+  include:
+    - stage: unit tests
+      script: echo one
+    - stage: unit tests
+      script: echo two
+    - stage: deploy
+      script: echo deploy
