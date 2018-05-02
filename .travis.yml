@@ -4,6 +4,6 @@ env:
   - FOO=one
   - FOO=two
   - FOO=three
-#   - FOO=four
-#   - FOO=five
-#   - FOO=six
+  - FOO=four
+  - FOO=five
+  - FOO=six
